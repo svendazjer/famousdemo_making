@@ -62,8 +62,6 @@ INTUS Desarrollos Moviles
 <gap:plugin name="org.apache.cordova.dialogs" />
 <gap:plugin name="org.apache.cordova.geolocation" />
 <gap:plugin name="org.apache.cordova.network-information" />
-<gap:plugin name="com.phonegap.plugins.pushplugin" />
-<gap:plugin name="com.adobe.plugins.gaplugin" />
 <!--<gap:plugin name="org.devgeeks.canvas2imageplugin" version="0.2.0" />-->
 
 <icon src="icon.png" />
