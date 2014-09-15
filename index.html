@@ -7,19 +7,17 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-        <script type="text/javascript" src="phonegap.js"></script>
-
         <!-- shims for backwards compatibility -->
-        <script type="text/javascript" src="functionPrototypeBind.js"></script>
-        <script type="text/javascript" src="classList.js"></script>
-        <script type="text/javascript" src="requestAnimationFrame.js"></script>
+        <script type="text/javascript" src="http://code.famo.us/lib/functionPrototypeBind.js"></script>
+        <script type="text/javascript" src="http://code.famo.us/lib/classList.js"></script>
+        <script type="text/javascript" src="http://code.famo.us/lib/requestAnimationFrame.js"></script>
 
         <!-- module loader -->
-        <script type="text/javascript" src="require.js"></script>
+        <script type="text/javascript" src="http://code.famo.us/lib/require.js"></script>
 
         <!-- famous -->
-        <link rel="stylesheet" type="text/css" href="famous.css" />
-        <script type="text/javascript" src="famous.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://code.famo.us/famous/0.2.0/famous.css" />
+        <script type="text/javascript" src="http://code.famo.us/famous/0.2.0/famous.js"></script>
 
         <!-- app code -->
         <link rel="stylesheet" type="text/css" href="css/app.css" />
@@ -29,6 +27,8 @@
             });
             require(['main']);
         </script>
+
+        <script type="text/javascript" src="phonegap.js"></script>
     </head>
     <body></body>
 </html>
